@@ -232,16 +232,20 @@
 <script src="https://cdn.bootcss.com/d3-transform/1.0.4/d3-transform.js"></script>
 <script src="js/bubblefloat.js"></script>
 
-<audio id="audioID" loop> <source src="music/Ivan_Birthday_Song.mp3"  type="audio/mp3"></audio>
+
+<audio autoplay loop>
+    <source src="music/Ivan_Birthday_Song.mp3" type="audio/mp3" >
+    <!-- <audio src="example.mp3" autoplay controls></audio> -->
+
+</audio>
+<!-- <audio id="audioID" loop> <source src="music/Ivan_Birthday_Song.mp3"  type="audio/mp3"></audio> -->
+<!-- <audio src="music/Ivan_Birthday_Song.mp3" autoplay true controls></audio> -->
+
+
 
 <script>
     var myaudio = document.getElementById("audioID").autoplay = true;
 </script>
-
-
-
-
-
 
 </body>
 
