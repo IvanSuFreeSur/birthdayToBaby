@@ -1041,7 +1041,7 @@
 		color: #000;
 		position: absolute;
 		left: 3%;
-		top: 4%;
+		top: 2%;
 		opacity: 0;
 		transition: all 0.5s;
 	}
@@ -3582,10 +3582,10 @@
 		margin-left:5px;
 	}
 	.ly-txt14 {
-		margin-top: 18%;
+		margin-top: 15%;
 		color: black !important;
 		font-size: 25px !important;
-		line-height: 22px;
+		line-height: 24px;
 		width: 100%;
 		margin-left:8px;
 	}
